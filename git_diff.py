@@ -6,8 +6,6 @@ Supports multiple methods: subprocess, GitPython library, and command-line inter
 
 import subprocess
 import sys
-import json
-import os
 from datetime import datetime
 from pathlib import Path
 

@@ -8,7 +8,6 @@
 # For more control, create a custom server:
 import http.server
 import socketserver
-from pathlib import Path
 
 
 def simple_file_server(port=8000):
@@ -31,7 +30,6 @@ def simple_file_server(port=8000):
 
 import http.server
 import json
-import urllib.parse
 from datetime import datetime
 
 
